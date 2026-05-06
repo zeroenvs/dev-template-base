@@ -26,6 +26,40 @@ This template serves as:
 
 ---
 
+## 🚀 Running the Environment
+
+Start the environment:
+
+```bash
+./dev up
+```
+
+Open a shell inside the container:
+
+```bash
+./dev shell
+```
+
+Run the example application:
+
+```bash
+node /workspace/example-app/index.js
+```
+
+---
+
+## 🧪 Example Application
+
+A small Node.js example application is included inside:
+
+```bash
+project/example-app
+```
+
+This exists only to demonstrate the development flow.
+
+---
+
 ## 📦 Features
 
 * Docker-based environment
