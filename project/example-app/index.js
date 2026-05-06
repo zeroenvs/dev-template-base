@@ -1,0 +1,1 @@
+console.log("ZeroEnvs template is running !!!");

@@ -1,0 +1,11 @@
+services:
+  app:
+      build:
+        context: ./image/app
+      container_name: zeroenvs-template-base
+      working_dir: /workspace
+      volumes:
+        - ./project:/workspace
+      stdin_open: true
+      tty: true
+      command: sleep infinity
